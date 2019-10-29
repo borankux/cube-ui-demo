@@ -30,14 +30,7 @@
       <div class="nanny-list">
         <hr style="margin: 20px auto;width: 80%;border: 0.5px solid #a8a2ae;">
         <h3 class="title" style="font-size: 1.5em;text-align: center;margin: 30px 10px 10px;">月嫂排名</h3>
-        <nanny-box></nanny-box>
-        <nanny-box></nanny-box>
-        <nanny-box></nanny-box>
-        <nanny-box></nanny-box>
-        <nanny-box></nanny-box>
-        <nanny-box></nanny-box>
-        <nanny-box></nanny-box>
-
+        <nanny-box v-for="id in nannies" :key="id" :level="id"></nanny-box>
       </div>
     </div>
 </template>
@@ -51,6 +44,7 @@
         },
         data () {
             return {
+                nannies: [1,2,3,4,5,6],
                 items: [
                     {
                         url: 'https://mp.weixin.qq.com/s/XyVYoQJSkSB6QXFDZ_tFdg',
