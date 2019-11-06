@@ -19,7 +19,6 @@ import register from "../pages/register";
 import setting from "../pages/setting";
 import visits from "../pages/visits";
 import dashboard from "../pages/dashboard";
-import mine_uy from "../pages/uy/mine_uy";
 
 Vue.use(Router);
 
