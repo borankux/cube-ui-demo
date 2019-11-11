@@ -19,9 +19,9 @@ import register from "../pages/register";
 import setting from "../pages/setting";
 import visits from "../pages/visits";
 import dashboard from "../pages/dashboard";
+import search from '../pages/search'
 
 Vue.use(Router);
-
 
 
 export default new Router({
@@ -36,6 +36,11 @@ export default new Router({
       component: register,
       path:'/register',
       name:'register'
+    },
+    {
+      component: search,
+      path: '/search',
+      name: 'search'
     },
     {
       component: dashboard,

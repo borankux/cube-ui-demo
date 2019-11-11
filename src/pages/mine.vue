@@ -20,31 +20,26 @@
             <h3>收藏</h3>
           </div>
         </div>
-        <div class="row-list">
-          <div class="row">
-            <i class="start cubeic-mall"></i>
-            <span>我的订单</span>
-            <i class="end cubeic-arrow"></i>
-          </div>
 
-          <div class="row">
-            <i class="start cubeic-person"></i>
-            <span>我的资料</span>
-            <i class="end cubeic-arrow"></i>
-          </div>
-
-          <div class="row">
-            <i class="start cubeic-camera"></i>
-            <span>我的账户</span>
-            <i class="end cubeic-arrow"></i>
-          </div>
-
-          <div class="row">
-            <i class="start cubeic-setting"></i>
-            <span>系统设置</span>
-            <i class="end cubeic-arrow"></i>
-          </div>
+        <div class="row">
+          <i class="start cubeic-person"></i>
+          <span>我的资料</span>
+          <i class="end cubeic-arrow"></i>
         </div>
+
+        <div class="row">
+          <i class="start cubeic-mall"></i>
+          <span>我的订单</span>
+          <i class="end cubeic-arrow"></i>
+        </div>
+
+
+        <div class="row">
+          <i class="start cubeic-setting"></i>
+          <span>系统设置</span>
+          <i class="end cubeic-arrow"></i>
+        </div>
+
       </div>
     </div>
 </template>
