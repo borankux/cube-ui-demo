@@ -1,0 +1,53 @@
+{
+  "courses": [
+    {
+      "title": "测试课程",
+      "cover": "http://localhost:8080/static/imgs/repair.jpeg",
+      "brief": "这是一个测试课程1",
+      "visit": 12,
+      "updated_at": "2019年10月11日02:11:32"
+    },
+    {
+      "title": "测试课程",
+      "cover": "http://localhost:8080/static/imgs/repair.jpeg",
+      "brief": "这是一个测试课程2",
+      "visit": 15,
+      "updated_at": "2019年10月12日02:11:32"
+    },
+    {
+      "title": "测试课程",
+      "cover": "http://localhost:8080/static/imgs/repair.jpeg",
+      "brief": "这是一个测试课程2",
+      "visit": 15,
+      "updated_at": "2019年10月12日02:11:32"
+    },
+    {
+      "title": "测试课程",
+      "cover": "http://localhost:8080/static/imgs/repair.jpeg",
+      "brief": "这是一个测试课程2",
+      "visit": 15,
+      "updated_at": "2019年10月12日02:11:32"
+    },
+    {
+      "title": "测试课程",
+      "cover": "http://localhost:8080/static/imgs/repair.jpeg",
+      "brief": "这是一个测试课程2",
+      "visit": 15,
+      "updated_at": "2019年10月12日02:11:32"
+    },
+    {
+      "title": "测试课程",
+      "cover": "http://localhost:8080/static/imgs/repair.jpeg",
+      "brief": "这是一个测试课程2",
+      "visit": 15,
+      "updated_at": "2019年10月12日02:11:32"
+    },
+    {
+      "title": "测试课程",
+      "cover": "http://localhost:8080/static/imgs/repair.jpeg",
+      "brief": "这是一个测试课程2",
+      "visit": 15,
+      "updated_at": "2019年10月12日02:11:32"
+    }
+  ]
+}

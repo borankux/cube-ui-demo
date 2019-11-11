@@ -7,6 +7,29 @@
       <div class="box-holder">
         <div class="box">
           <div class="image">
+            <img src="../assets/imgs/ic_baby.png" alt="">
+          </div>
+          <h3>月搜</h3>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="../assets/imgs/ic_clean.png" alt="">
+          </div>
+          <h3>清洁</h3>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="../assets/imgs/ic_repair.png" alt="">
+          </div>
+          <h3>维修</h3>
+        </div>
+      </div>
+
+      <div class="box-holder">
+        <div class="box">
+          <div class="image">
             <img src="../assets/imgs/ic_exam.png" alt="">
           </div>
           <h3>考试评级</h3>
@@ -98,6 +121,7 @@
     font-size: 0.8em;
     margin: 5px;
     color: #555555;
+    text-align: center;
   }
 
   .box {
