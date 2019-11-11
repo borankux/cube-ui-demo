@@ -1,8 +1,8 @@
 <template>
     <div class="page">
       <div class="profile-box">
-        <img class="avatar" src="../assets/imgs/ic_user.png" alt="">
-        <h2 class="name">登录/注册</h2>
+        <img class="avatar" @click="gotoLogin" src="../assets/imgs/ic_user.png" alt="">
+        <h2 @click="gotoLogin" class="name">登录/注册</h2>
 
         <div class="badge-holder">
           <div class="badge">
@@ -51,7 +51,20 @@
 
 <script>
     export default {
-        name: "mine"
+        name: "mine",
+        data () {
+            return {
+
+            }
+        },
+        methods: {
+            gotoLogin()
+            {
+                this.$router.push({
+                    name: 'login'
+                })
+            }
+        }
     }
 </script>
 
