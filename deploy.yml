@@ -1,0 +1,7 @@
+version: 1.0
+commands:
+  - npm run install
+  - npm run build
+
+scripts:
+  - post-deploy.sh
